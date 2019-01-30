@@ -10,3 +10,5 @@ assignees: ''
 Som:
 Ønsker jeg å:
 Slik at:
+
+Lenke til trådskisser:
