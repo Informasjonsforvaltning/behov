@@ -12,3 +12,6 @@ Som:
 Slik at:
 
 Relatert til epos:
+
+Lenke til design: 
+Lenke til løsningsarkitektur:
