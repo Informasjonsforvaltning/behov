@@ -7,8 +7,9 @@ assignees: ''
 
 ---
 
-Som:
-Ønsker jeg å:
-Slik at:
+Som: 
+Ønsker jeg å: 
+Slik at: 
 
-Lenke til trådskisser:
+Lenke til trådskisser: 
+Lenke til overordna arkitektur:
