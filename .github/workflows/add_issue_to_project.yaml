@@ -4,12 +4,12 @@ on:
   issues:
     types: [opened]
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  MY_GITHUB_TOKEN: ${{ secrets.ADD_ISSUE_TO_BEHOVSPROSJEKT_TOKEN }}
 
 jobs:
   assign_to_project:
     runs-on: ubuntu-latest
-    name: Assign topic to Project
+    name: Assign issue to project
     steps:
       - name: Assign new issues to GitHub Project
         uses: srggrs/assign-one-project-github-action@1.2.1
