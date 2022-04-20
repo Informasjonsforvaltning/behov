@@ -2,7 +2,7 @@ name: Auto Assign Issues to Projects
 
 on:
   issues:
-
+    types: [opened]
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Assign topic to Project
     steps:
-      - name: Assign issues with new-topic label to GitHub Project
+      - name: Assign new issues to GitHub Project
         uses: srggrs/assign-one-project-github-action@1.2.1
         with:
           project: "https://github.com/orgs/Informasjonsforvaltning/projects/3"
