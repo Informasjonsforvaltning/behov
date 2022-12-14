@@ -17,3 +17,10 @@ Lenke til design:
 Lenke til løsningsarkitektur:
 
 Forretningsverdi (Kritisk/Viktig/Mindre viktig/Kjekt å ha):
+
+Avklaringer: 
+
+| Spørsmål | Avklaring | Avklart med | Avklart dato | 
+| -------- | --------- | ----------- | ------------ |
+| | | | |
+| | | | |
