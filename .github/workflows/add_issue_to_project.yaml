@@ -3,8 +3,6 @@ name: Auto Assign Issues to Projects
 on:
   issues:
     types: [opened]
-env:
-  MY_GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
 
 jobs:
   assign_to_project:
@@ -12,7 +10,7 @@ jobs:
     name: Assign issue to project
     steps:
       - name: Assign new issues to GitHub Project
-        uses: srggrs/assign-one-project-github-action@1.2.1
+        uses: actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd  # v2.0.0
         with:
-          project: "https://github.com/orgs/Informasjonsforvaltning/projects/3"
-          column_name: "Avklare behov"
+          project-url: https://github.com/orgs/Informasjonsforvaltning/projects/15
+          github-token: ${{ secrets.BOT_ACCESS_TOKEN }}
